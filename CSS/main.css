@@ -1,0 +1,44 @@
+.navaleCells
+{
+    width: 35px;
+    height: 35px;
+    border: dotted black 1px;
+    background-color: aqua;
+}
+
+.boat
+{
+    background-color: grey;
+}
+
+.hit
+{
+    background-color: red;
+}
+
+.plouf
+{
+    background-color: darkblue;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-around;
+}
+
+.main
+{
+    padding-left: 200px;
+}
+
+.data
+{
+    width: 250px;
+}
+
+.boat
+{
+    opacity: 1;
+}
